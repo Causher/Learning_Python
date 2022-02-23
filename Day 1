@@ -1,0 +1,89 @@
+echo "# Learning_Python" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Causher/Learning_Python.git
+git push -u origin main
+
+print("*INTRO*:")
+print("Hello World")
+print("\n")
+
+
+print("*SHAPES*:")
+print("   /|")
+print("  / |")
+print(" /  |")
+print("/___|")
+print("\n")
+
+
+print("*VARIABLES*:")
+character_name = "Tom"
+character_age = "50"
+is_male = True
+print("There once was a man named " + character_name + ",")
+print("he was " + character_age + " years old.")
+
+character_name = "Mike"
+print("He really like the name " + character_name + ",")
+print("but he didn't like being " + character_age + ",")
+print("\n")
+
+
+print("*STRINGS*:")
+print("--PHRASES")
+phrase = "Giraffe Academy"
+print(phrase + " is cool")
+print("--UPPER/LOWER")
+print(phrase.lower())
+print(phrase.upper())
+print(phrase.isupper())
+print(phrase.upper().isupper())
+print("--LENGTH/WORDCOUNT")
+print(len(phrase))
+print(phrase[3])
+print(phrase.index("Acad"))
+print(phrase.replace("Giraffe", "Elephant"))
+print("--CREATE NEW LINE/QUOTATION")
+print("Giraffe\nAcademy")
+print("Giraffe\"Academy")
+print("\n")
+
+
+print("*NUMBERS*:")
+print(2.0987)
+print(-2.0987)
+print(3+4.5)
+print(3-4.5)
+print(3*4.5)
+print(3*4+5)
+print(3*(4+5))
+print("--MODULATION/REMAINDER")
+print(10 % 3)
+print("--VARIABLES/STRING")
+my_num = 5
+print(my_num)
+print(str(my_num) + " my favorite number")
+print("--FUNCTION")
+my_num = -5
+print("abs = absolute number (abs of -5 is 5)")
+print(abs(my_num))
+print("pow = power of, 4^6 (4 to the power of 6)")
+print(pow(4, 6))
+print("max = larger of numbers ")
+print(max(4, 6))
+print("min = smaller of numbers ")
+print(min(4, 6))
+print("round = round a number")
+print(round(3.7))
+print("--IMPORTING")
+print("MODULE(from math import*) gives access to more math functions")
+from math import *
+print("floor = bottom number rounded")
+print(floor(3.7))
+print("ceil = ceiling, top number rounded")
+print(ceil(3.7))
+print("sqrt = square root")
+print(sqrt(36))
